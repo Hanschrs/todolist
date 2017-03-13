@@ -15,8 +15,10 @@
 					<li>Yotsuha</li>
 				</ul>
 				<form>
-					<div class="form-group">
-						<input type="text" name="todo_item" placeholder="Item baru...">
+					<div class="col-lg-3">
+						<div class="form-group">
+							<input type="text" name="todo_item" placeholder="Item baru...">
+						</div>
 					</div>
 					<div class="col-lg-1">
 						<button type="submit" class="btn btn-success">Add</button>
