@@ -12,7 +12,10 @@
 				<h1>ToDo List</h1>
 				<ul>
 					@foreach($todo as $td)
-					<li>{{ $td->item }}</li>
+					<li>
+						{{ $td->item }}
+						<a href="{{ url('destroy',[$td]) }} " class="btn btn-danger">x</a>
+					</li>
 					@endforeach
 				</ul>
 				<form action="todo" method="POST">
