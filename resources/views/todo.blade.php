@@ -14,7 +14,7 @@
 					@foreach($todo as $td)
 					<li>
 						{{ $td->item }}
-						<a href="{{ url('destroy',[$td]) }} " class="btn btn-danger">x</a>
+						<a href="{{ url('destroy',[$td->id_todo]) }} " class="btn btn-danger">x</a>
 					</li>
 					@endforeach
 				</ul>
